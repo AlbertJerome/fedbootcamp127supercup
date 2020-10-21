@@ -4,44 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+ <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+ <body>
 <div class="container">
     <div class="row">
-
+     
         <div class="col">
-            <img src="./assests/rma.png" alt="">
+         <img class="profile-icon" src="./assests/realm.png" alt="RMA"height="150px" width="150px">
+         
+        <span class="name" id="Team-1-name">REAL MADRID</span>
+        <div class="round-shoot" id="Team-1-roundshoot">
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
         </div>
-        <span>REAL MADRID</span>
-        <div>
-            <span>1</span>
-            <span>0</span>
-            <span>1</span>
-            <span>1</span>
-            <span>1</span>
-        </div>
+    </div> 
         <div class="col">
-            <div>
-                <span>4</span>
+            <div class="row score">
+                <span id="Team-1-score">0</span>
                 <span>-</span>
-                <span>3</span>
-            </div>
-        </div>
+                <span id="Team-2-score">0</span>
+         </div>
+    </div>
         <div class="col">
-            <img src="./assests/sev.png" alt="">
+            <img class="profile-icon" src="./val.jpg" alt="SEV" height="150px" width="150px">
+        
+        <span class="name" id="Team-2-name">VALENCIA FC</span>
+        <div class="round-shoot" id="Team-2-round-shoot">
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
         </div>
-        <span>SEVILLA FC</span>
-        <div>
-            <span>0</span>
-            <span>1</span>
-            <span>1</span>
-            <span>1</span>
-            <span>0</span>
-        </div>
-              
+        </div>    
+    </div>
+     <div class="row">
+        <button id="shoot">RMA Shoot</button>
 
     </div>
-</div>
+ </div>
 </body>
 </html>

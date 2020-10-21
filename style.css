@@ -5,4 +5,64 @@
 
 body{
     background: violet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+.container{
+background: black;
+display: flex;
+flex-direction: column;
+border-radius: 20px;
+width: 700px;
+padding: 50px;
+margin-top: 50px;
+}
+.container > .row{
+    width: 100%;
+    justify-content: center;
+}
+.row{
+    display: flex;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.profile-icon{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.score{
+    font-size: xx-large;
+}
+
+.score > span{
+    margin: 0 5px;}
+
+.round-shoot{
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+#shoot-button{
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(135deg, red, yellow);
+    font-size: large;
+    width: 300px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: -50px;
 }
