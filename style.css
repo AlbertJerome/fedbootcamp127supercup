@@ -68,7 +68,8 @@ height: 70vh;
     font-size: large;
     width: 300px;
     color: white;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
     display: inline-block;
     padding: 8px;
 }
@@ -80,7 +81,7 @@ height: 70vh;
     font-size: large;
     width: 85px;
     color: white;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
     display: inline-block;
-    padding: 8px;
 }
