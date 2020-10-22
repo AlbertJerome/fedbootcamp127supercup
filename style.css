@@ -17,6 +17,8 @@ flex-direction: column;
 border-radius: 20px;
 width: 700px;
 padding: 50px;
+  align-items: center;
+  position: relative;
 margin-top: 50px;
 }
 .container > .row{
