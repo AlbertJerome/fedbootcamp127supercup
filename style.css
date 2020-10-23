@@ -85,3 +85,11 @@ height: 70vh;
     margin-bottom: 100px;
     display: inline-block;
 }
+
+#result{
+    margin-top: 50px;
+    background: yellowgreen;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 700;
+}
